@@ -69,5 +69,16 @@ O aplicativo busca facilitar a migração para energia solar, disponibilizando f
  - **Syncfusion Flutter Charts:** biblioteca do Flutter para gerar gráficos modernos e amigáveis.
 
  ## Boas práticas
- - **Segurança:** as senhas são criptografadas! Hashes SHA-256. Isso protege e garante a segurança dos dados dos usuários.
- 
+ ### Segurança
+ As senhas são criptografadas! Hashes SHA-256. Isso protege e garante a segurança dos dados dos usuários.
+
+ ### Gerenciamento de memória
+ - **Liberação de recursos**: objetos e conexões com o banco são liberados usando o método dispose() para evitar vazamentos de memória.
+ - **Listas eficientes**: componentes como ListView.builder foram usados para carregar apenas os itens visíveis na tela.
+ - **Banco de dados**: dados são consultados apenas quando necessário, e índices deixam as consultas mais rápidas. 
+ - **Imagens otimizadas**: imagens redimensionadas, evitando arquivos grandes.
+ - 
+
+
+
+
