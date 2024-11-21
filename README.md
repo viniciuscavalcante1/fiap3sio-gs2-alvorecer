@@ -77,7 +77,6 @@ O aplicativo busca facilitar a migração para energia solar, disponibilizando f
  - **Listas eficientes**: componentes como ListView.builder foram usados para carregar apenas os itens visíveis na tela.
  - **Banco de dados**: dados são consultados apenas quando necessário, e índices deixam as consultas mais rápidas. 
  - **Imagens otimizadas**: imagens redimensionadas, evitando arquivos grandes.
- - 
 
 
 
