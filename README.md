@@ -64,10 +64,10 @@ O aplicativo busca facilitar a migração para energia solar, disponibilizando f
   ```
 
  ## Justificativa das escolhas técnicas
- **Flutter:** escolhi o ```Flutter``` por ser uma linguagem mobile multiplataforma e de rápido desenvolvimento. 
- **PostgreSQL:** banco de dados relacional robusto, moderno e confiável. Amplamente usado no mercado.
- **Syncfusion Flutter Charts:** biblioteca do Flutter para gerar gráficos modernos e amigáveis.
+ - **Flutter:** escolhi o ```Flutter``` por ser uma linguagem mobile multiplataforma e de rápido desenvolvimento. 
+ - **PostgreSQL:** banco de dados relacional robusto, moderno e confiável. Amplamente usado no mercado.
+ - **Syncfusion Flutter Charts:** biblioteca do Flutter para gerar gráficos modernos e amigáveis.
 
  ## Boas práticas
- **Segurança:** as senhas são criptografadas! Hashes SHA-256. Isso protege e garante a segurança dos dados dos usuários.
+ - **Segurança:** as senhas são criptografadas! Hashes SHA-256. Isso protege e garante a segurança dos dados dos usuários.
  
